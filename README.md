@@ -4,7 +4,9 @@ pwatools is a JavaScript library that depends on jQuery and Bootstrap to craft P
 ## Demo
 
 I built a simple demo page to demonstrate pwatools.\
-All functions of this library are explained on the demo page as well.
+All functions of this library are explained on the demo page as well.\
+
+The demo can be added to your homescreen and it should behave like an app.
 
 You can find it here: [https://pwatools.discord.digital/](https://pwatools.discord.digital)
 

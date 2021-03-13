@@ -8,6 +8,10 @@ All functions of this library are explained on the demo page as well.
 
 You can find it here: [https://pwatools.discord.digital/](https://pwatools.discord.digital)
 
+### Screenshot
+
+![Comparison between developer mode and real phone](https://pwatools.discord.digital/cdn/example.png)
+
 ## About Icons
 
 This demonstration of the library uses [Ionicons](https://ionicons.com/).\

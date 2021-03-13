@@ -10,6 +10,10 @@ The demo can be added to your homescreen and it should behave like an app.
 
 You can find it here: [https://pwatools.discord.digital/](https://pwatools.discord.digital)
 
+It is worth mentioning that you need a webserver to run this.\
+Running this locally will fail because the page loading uses AJAX and access to local files is not allowed.\
+PHP is **not** required to run this.
+
 ### Screenshot
 
 ![Comparison between developer mode and real phone](https://pwatools.discord.digital/cdn/example.png)
@@ -94,4 +98,28 @@ A page can look like this:
 </body>
 
 </html>
+```
+
+For the PWA integration on your homescreens you need to create a file named manifest.json\
+Save it on your web root and include it like on the HTML example shown on top of this README.
+
+You can also link your homescreen icon from there.\
+The homescreen icon linked in your manifest.json will be shown on Android devices.\
+For iOS you can use the "pwatools.setPageIcon(url)" function.
+
+```json
+{
+  "name": "pwatools demo",
+  "short_name": "pwatools demo",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "Logo.png",
+      "sizes": "460x460",
+      "type": "image/png"
+    }
+  ]
+}
 ```

@@ -16,6 +16,9 @@ PHP is **not** required to run this.
 
 ### Screenshot
 
+On the left you see the phone when pwatools.emulatePhone() is called for desktop.\
+The right-side image is a screenshot of the PWA on an iPhone.
+
 ![Comparison between developer mode and real phone](https://pwatools.discord.digital/cdn/example.png)
 
 ## About Icons
